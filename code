@@ -1,9 +1,49 @@
-<!DOCTYPE html>
+
+   <!DOCTYPE html>
 <html>
-    <head>
-         <title>My Webpage!</title>
-         </head>
-         <body>
-         Hello, world!hello again
-         </body>
- </html>
+<head>
+<title>Login Page</title>
+
+<body>
+  <h1>LOGIN</h1>
+   
+  Enter your email and password to login
+ <form>
+
+    <p>EMAIL *</p>
+    <input name="email" type="text" placeholder="email">
+    <p>PASSWORD *</p>
+    <input name="password" type="password" placeholder="password">
+    <a href="Login">Login
+  
+  <p>Forgot your password?</p>
+  
+  <div>
+  <a href="http://google.com">Sign in with Google+</a>
+
+  <a href="http://Facebook.com">Sign in with Facebook</a>
+  <a href="Signup">SignUp a new account
+</div>
+</body>
+</html>
+<style>
+  h1{color: blue;
+    text-align: left;
+    font-size: 20px;
+   padding-top: 20px;
+
+  }
+  p{
+    color: black;
+    text-align: left;
+
+  }
+  body{
+    background-color: yellow;
+    font-size: 10px;
+    font-family: Arial;
+    font-weight: bold;
+    border-width: 10px;
+    padding:20px;
+  }
+ </style>
